@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Apply a unique color scheme */
+body {
+    background-color: #1a2a47;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Add animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply styles to the hero section */
+  #home {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #home h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  #home p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #ff4242;
+  }
+  
